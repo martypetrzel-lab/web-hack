@@ -7,5 +7,8 @@
     "healthcheckTimeout": 30,
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 5
+  },
+  "variables": {
+    "DEVICE_API_KEY": { "description": "Sdílený klíč ESP32 a webového ovladače" }
   }
 }
